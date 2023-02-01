@@ -1,0 +1,123 @@
+.application__process > div {
+  padding: 16px 24px 24px;
+}
+.application__process {
+  margin-top: 40px;
+}
+.payment__method,
+form {
+  margin-top: 16px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+form {
+  padding: 16px 24px 0px;
+}
+.delivery {
+  border-radius: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.del__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.del__header h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+.none {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: none;
+}
+.extradition {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
+}
+.extradition h4 {
+  width: 170px;
+  align-self: flex-start;
+  margin: 0 15px 0 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.revew span {
+  line-height: 24px;
+}
+.point {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.point div span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+/* .point div span:nth-child(3) {
+  margin-left: 8px;
+} */
+.images__block {
+  margin-top: -2px;
+}
+.images__block img {
+  width: 40px;
+  height: 56px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05));
+  border-radius: 8px;
+}
+.images__block img:not(:last-child) {
+  margin-right: 4px;
+}
+.return__del {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+.return__del img {
+  margin-right: 8px;
+  align-self: end;
+}
+
+/* payment__method */
+.card__info {
+  margin-top: 16px;
+  display: flex;
+}
+.card__info span:nth-child(2) {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+/* Mobile */
+@media screen and (max-width: 530px) {
+  .extradition {
+    flex-direction: column;
+  }
+  .free {
+    align-self: flex-start;
+  }
+  .images__block {
+    margin-top: 12px;
+    align-self: flex-start;
+  }
+  .images__block img {
+    width: 41px;
+  }
+  .del__header h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
